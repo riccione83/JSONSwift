@@ -23,22 +23,6 @@ class RRJSONTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-        
-        let json = JSON()
-        
-        json.getAsyncronousJson("http://api.openweathermap.org/data/2.5/weather?q=London", params: "") { (result) -> Void in
-            println("\(result)")
-        }
         
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }
